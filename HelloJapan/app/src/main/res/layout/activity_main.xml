@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/hiraTab"
+        android:layout_width="356dp"
+        android:layout_height="552dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="1"
+
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="?android:attr/scrollbarThumbHorizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kataTab"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom"
+            app:columnCount="5"
+            app:rowCount="11">
+
+            <ImageButton
+                android:id="@+id/hira_a"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_a"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_i"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_i"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_u"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_u"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_e"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_e"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_o"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_o"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ka"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ka"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ki"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ki"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ku"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ku"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ke"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ke"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ko"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ko"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_sa"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_sa"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_shi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_shi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_su"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_su"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_se"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_se"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_so"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_so"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ta"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_chi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_chi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_tsu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_tsu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_te"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_te"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_to"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_to"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_na"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_na"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ni"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ni"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_nu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_nu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ne"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ne"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_no"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_no"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ha"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ha"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_hi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_hi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_fu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_fu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_he"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_he"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ho"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ho"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ma"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ma"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_mi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_mi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_mu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_mu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_me"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_me"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_mo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_mo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ya"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ya"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty2"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_yu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_yu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty3"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_yo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_yo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ra"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ra"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ri"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ri"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ru"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ru"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_re"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_re"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_ro"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_ro"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_wa"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_wa"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty4"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty5"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty6"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_wo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_wo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_n"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira_n"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty7"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty8"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty9"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/hira_emty10"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/kataTab"
+        android:layout_width="356dp"
+        android:layout_height="552dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="0"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom"
+            app:columnCount="5"
+            app:rowCount="11">
+
+            <ImageButton
+                android:id="@+id/kata_a"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_a"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_i"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_i"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_u"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_u"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_e"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_e"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_o"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_o"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ka"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ka"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ki"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ki"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ku"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ku"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ke"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ke"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ko"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ko"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_sa"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_sa"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_shi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_shi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_su"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_su"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_se"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_se"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_so"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_so"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ta"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_chi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_chi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_tsu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_tsu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_te"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_te"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_to"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_to"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_na"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_na"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ni"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ni"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_nu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_nu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ne"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ne"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_no"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_no"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ha"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ha"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_hi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_hi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_fu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_fu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_he"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_he"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ho"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ho"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ma"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ma"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_mi"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_mi"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_mu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_mu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_me"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_me"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_mo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_mo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ya"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ya"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty2"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_yu"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_yu"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty3"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_yo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_yo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ra"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ra"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ri"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ri"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ru"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ru"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_re"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_re"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_ro"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_ro"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_wa"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_wa"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty4"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty5"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty6"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_wo"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_wo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_n"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/kata_n"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty7"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty8"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty9"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:layout_columnWeight="1"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/kata_emty10"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"></ImageButton>
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/HiraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="@string/hiraTx"
+        android:textAllCaps="false"
+        android:textColor="#E43B5A"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="@+id/KataText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/KataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:alpha="0"
+        android:fontFamily="@font/aladin"
+        android:text="@string/kataTx"
+        android:textAllCaps="false"
+        android:textColor="#E43B5A"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/hiraTab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kataBtn"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/kataTx"
+        android:textAllCaps="false"
+        android:textColor="@color/material_dynamic_neutral0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hiraTab"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/hiraBtn"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/hiraTx"
+        android:textAllCaps="false"
+        android:textColor="@color/material_dynamic_neutral0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kataBtn"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
